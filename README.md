@@ -28,6 +28,10 @@ import ["std:Array.prototype.flatten", “https://myPolyFill.net/Array/prototype
 
 The exact location of the `with { integrity="some #" }` could either be on each import or for everything.
 
+# Limitations
+
+This proposal does not solve the problem for loading builtin modules for non-modules. For that problem one solution could be  to allow some builtin modules to be run as either module or non-module code. Then, at least for the case of html, there could be a new script tag attribute, say "native", referencing the builtin module. Obviously, this would require some coordination with W3C.
+
 # Related Proposals
 
 The Layered Features proposal:
