@@ -35,4 +35,4 @@ This proposal does not solve the problem for loading builtin modules for non-mod
 # Related Proposals
 
 The Layered Features proposal:
-https://github.com/drufball/layered-apis/blob/master/README.md
+https://github.com/drufball/layered-apis/
